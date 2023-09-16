@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    }
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0a121f;
+}
+
+.header div a {
+    cursor: pointer;
+}
+
+.header, .nav-links, a{
+    padding: 7px;
+    color: #f7f7f8;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.signin {
+    border-radius: 5px;
+    background-color: #3A68B8;
+    color: #fff;
+    padding: 10px 30px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+
+.sectiontop {
+background-color: #08101e;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+section span {
+    color: #2b4f8d;
+}
+
+section h1 {
+   color:#ffffff; 
+   font-size: 55px;
+}
+
+p {
+    color:#aaacb1;
+}
+
+.p1 button {
+    border-radius: 5px;
+    padding: 20px 30px;
+    background-color: #2b4f8d;
+    border-color: transparent;  
+    color: #ffffff;
+    font-size: large;
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.p1 button img {
+    inline-size: 12px;
+}
+
+
+.sectionbottom{
+    background-color: #08101e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.rocketman {
+width: 474px;
+}
+
+@media (max-width:767px) {
+    .fa-bars{
+        display: block;
+    }
+    
+    .nav-links, .signin {
+        display: none;
+    }
+
+    .sectiontop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rocketman {
+        width: 300px;
+        size: 100%;
+    }
+
+    .sectionbottom {
+        display: block;
+    }
+    
+    section div div span {
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    section div div h1 {
+        text-align: center;
+        display: block;
+        margin:0;
+    }
+    
+    section div div p br {
+        display: none;
+    }
+
+    section div div p {
+        text-align: center;
+    }
+
+    section .buttonlar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sectionbottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionbottom img {
+        padding-top: 40px;
+    }
+    }
+    
