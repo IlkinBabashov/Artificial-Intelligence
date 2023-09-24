@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 
-*{
+* {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
@@ -9,10 +9,10 @@
 
 body {
     margin: auto;
-    }
+}
 
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -23,7 +23,9 @@ body {
     cursor: pointer;
 }
 
-.header, .nav-links, a{
+.header,
+.nav-links,
+a {
     padding: 7px;
     color: #f7f7f8;
 }
@@ -43,30 +45,30 @@ body {
 
 
 .sectiontop {
-background-color: #08101e;
-display: flex;
-align-items: center;
-justify-content: space-around;
+    background-color: #08101e;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-section span {
+.section1 span {
     color: #2b4f8d;
 }
 
-section h1 {
-   color:#ffffff; 
-   font-size: 55px;
+.section1 h1 {
+    color: #ffffff;
+    font-size: 55px;
 }
 
 p {
-    color:#aaacb1;
+    color: #aaacb1;
 }
 
 .p1 button {
     border-radius: 5px;
     padding: 20px 30px;
     background-color: #2b4f8d;
-    border-color: transparent;  
+    border-color: transparent;
     color: #ffffff;
     font-size: large;
     align-items: center;
@@ -80,7 +82,7 @@ p {
 }
 
 
-.sectionbottom{
+.sectionbottom {
     background-color: #08101e;
     display: flex;
     align-items: center;
@@ -89,15 +91,16 @@ p {
 }
 
 .rocketman {
-width: 474px;
+    width: 474px;
 }
 
 @media (max-width:767px) {
-    .fa-bars{
+    .fa-bars {
         display: block;
     }
-    
-    .nav-links, .signin {
+
+    .nav-links,
+    .signin {
         display: none;
     }
 
@@ -114,38 +117,173 @@ width: 474px;
     .sectionbottom {
         display: block;
     }
-    
-    section div div span {
+
+    .section1 div div span {
         display: block;
         text-align: center;
         padding-top: 20px;
     }
 
-    section div div h1 {
+    .section1 div div h1 {
         text-align: center;
         display: block;
-        margin:0;
+        margin: 0;
     }
-    
-    section div div p br {
+
+    .section1 div div p br {
         display: none;
     }
 
-    section div div p {
+    .section1 div div p {
         text-align: center;
     }
 
-    section .buttonlar {
+    .section1 .buttonlar {
         display: flex;
         justify-content: space-around;
     }
 
-    .sectionbottom{
+    .sectionbottom {
         display: flex;
         flex-direction: column;
     }
+
     .sectionbottom img {
         padding-top: 40px;
     }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ust {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 .ust .ustsol .brain {
+        width: 300px;
+    }
+    .section2 .ust div {
+        text-align: center;
+    }
+
+    .section2 .ust .ustsag p {
+        align-items: center;
+    }
+
+    br {
+        display: none;
+    }
+
+    .section2 .alt div {
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .movelogo {
+        display: none;
+    }
+
+
+    .section3 .daxili {
+        color: #fff;
+        flex-direction: column;
+        text-align: center;
+        display: block;
     }
     
+
+    .section3 .daxili .sagteref img {
+        padding-top: 30px;
+        width: 300px;
+    }
+
+}
+
+
+/* yuxari mobildir */
+
+
+.section2 {
+    background-color: #08101e;
+}
+
+.section2 .ust {
+    padding-top: 50px;
+    justify-content: space-evenly;
+    display: flex;
+    color: #fff;
+}
+
+.ustsol img {
+    width: 400px;
+
+}
+
+.ustsag {
+    padding-top: 50px;
+    
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #2b4f8d;
+    border-color: transparent;
+    color: #ffffff;
+    font-size: large;
+    align-items: center;
+    display: inline-flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.alt {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.alt div {
+    flex: 1 0 250px;
+    background-color: #0e1623;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.movelogo img {
+    padding-top: 20px;
+    padding-left: 727px;
+}
+
+hr {
+    border-top: 0px solid transparent;
+    margin: 0 auto;
+}
+
+.section3 {
+    background-color: #08101e;
+    padding-top: 100px;
+}
+
+.section3 .daxili {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.section3 .daxili div img {
+    width: 500px;
+}
+
+.section3 .daxili {
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+
