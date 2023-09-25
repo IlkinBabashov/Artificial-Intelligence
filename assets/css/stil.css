@@ -247,7 +247,7 @@ button {
 }
 
 .alt div {
-    flex: 1 0 250px;
+    flex: 1 0 205px;
     background-color: #0e1623;
     margin-left: 10px;
     margin-right: 10px;
@@ -258,7 +258,7 @@ button {
 
 .movelogo img {
     padding-top: 20px;
-    padding-left: 727px;
+    padding-left: 532px;
 }
 
 hr {
@@ -285,5 +285,36 @@ hr {
     justify-content: space-evenly;
     padding-bottom: 100px;
 }
+
+.section2 {
+    color: #f7f7f8;
+}
+
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0px solid #dedede;
+    
+}
+
+.otherside {
+    text-align: center;
+    border-top: 0px solid #dedede;
+}
+
+footer {
+    display: grid;
+    background-color: #060e1c;
+    color:#fff;
+    grid-template-columns: repeat(auto-fill,minmax(210px,1fr));
+    
+    
+}
+
+
+
+
 
 
